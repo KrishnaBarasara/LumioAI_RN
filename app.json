@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Lumio AI",
+    "slug": "lumio-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "lumioai",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F4FB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lumio.ai",
+      "icon": "./assets/icon.png"
+    },
+    "android": {
+      "package": "com.lumio.ai",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#6D28FF"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-audio",
+      "expo-secure-store",
+      "expo-web-browser",
+      "expo-sharing",
+      "expo-asset"
+    ]
+  }
+}

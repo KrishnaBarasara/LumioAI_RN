@@ -1,0 +1,16 @@
+export const colors = {
+  primary: '#6D28FF',
+  secondary: '#8B5CF6',
+  secondaryLight: '#A855F7',
+  secondaryLighter: '#C084FC',
+  background: '#F7F4FB',
+  card: '#FFFFFF',
+  text: '#121212',
+  textSecondary: '#6B7280',
+  border: '#EAEAEA',
+  success: '#10B981',
+  warning: '#F59E0B',
+  error: '#EF4444',
+  white: '#FFFFFF',
+  overlay: 'rgba(18, 18, 18, 0.4)',
+} as const;
